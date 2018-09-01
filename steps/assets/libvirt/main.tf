@@ -25,5 +25,6 @@ module assets_base {
   tectonic_versions                = "${var.tectonic_versions}"
   libvirt_uri                      = "${var.tectonic_libvirt_uri}"
   replicas                         = "${var.tectonic_worker_count}"
+  network_name                     = "${var.tectonic_libvirt_network_name}"
   mao_provider                     = "libvirt"
 }

@@ -8,6 +8,7 @@ data:
       uri: ${libvirt_uri}
       replicas: ${replicas}
       clusterName: ${cluster_name}
+      networkName: ${network_name}
 metadata:
   name: mao-config-v1
   namespace: kube-system
